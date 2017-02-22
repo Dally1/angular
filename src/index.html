@@ -3,12 +3,26 @@
 <head>
   <meta charset="utf-8">
   <title>FirebaseCrud</title>
-  <base href="/">
 
+  <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDGyvmfuV2Y3Xdf5u82LNlcClW8vx-F_mk",
+      authDomain: "fir-crud-d28f2.firebaseapp.com",
+      databaseURL: "https://fir-crud-d28f2.firebaseio.com",
+      storageBucket: "fir-crud-d28f2.appspot.com",
+      messagingSenderId: "190589243580"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <base href="/">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root>Loading...</app-root>
+<app-root>Loading...</app-root>
 </body>
 </html>
