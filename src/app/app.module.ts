@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from 'angularfire2';
 // src/app/app.module.ts
 import {AF} from "../providers/af";
+import { LoginPageComponent } from './login-page/login-page.component';
 @NgModule({
     ....,
   providers: [AF]
@@ -21,7 +22,7 @@ export const firebaseConfig = {
     BrowserModule,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, LoginPageComponent ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {}
